@@ -20,8 +20,7 @@
 namespace svnadmin\providers\ldap;
 
 class LdapUserViewProvider extends \IF_AbstractLdapConnector
-	implements	\svnadmin\core\interfaces\IUserViewProvider,
-				\svnadmin\core\interfaces\IGroupViewProvider
+	implements	\svnadmin\core\interfaces\IUserViewProvider
 {
 	/**
 	 * Indicates whether the "init()" method has been called.
